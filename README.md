@@ -12,3 +12,5 @@
 - `train.py`: Contains the training loop and model training logic. This script handles the model training process, including data loading, training iterations, and model checkpointing.
 - `hyperparameter_optimisation.py`: Implements Bayesian optimization for transformer parameters. This script systematically searches the hyperparameter space to find optimal model configurations, improving model performance through data-driven parameter selection.
 
+## Data
+**Note**: The raw genomic and proteomic datasets are not included in this repository due to their large size (20-30 GB). The data processing scripts (`stage1.py` and `stage2.py`) are provided to generate the required datasets from the raw data. Users will need to obtain the raw data separately to run the complete pipeline.
