@@ -1,0 +1,11 @@
+.venv/
+data/
+data1/
+output/
+KAT_train_test_data/
+figures/
+presentation/
+
+
+
+
